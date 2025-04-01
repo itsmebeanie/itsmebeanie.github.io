@@ -1,0 +1,193 @@
+.cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-light-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-regular-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-medium-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-semibold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-bold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .yarndings-20-regular {
+    font-family: "Yarndings 20", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .yarndings-20-regular {
+    font-family: "Yarndings 20", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .heading {
+    font-family: cormorantgaramond-light, cormorantgaramond, cormorant garamond, serif;
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a2a2a;
+    font-size: 12px;
+
+  }
+
+  a {
+    color: #f12b2b;
+    text-decoration: none;
+  }
+
+  /* Navbar styling */
+  .navbar {
+    float: left;
+    padding: 20px;
+  }
+
+  .navbar a {
+    color: #f12b2b;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 0 0;
+  }
+
+  .yarn {
+    font-family: 'Yarndings 20', serif;
+    font-size: 50px;
+  }
+
+  /** Layout */
+  .row { 
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navItem {
+    box-sizing: border-box;
+    /*outline: solid;*/
+    width: 300px;
+  }
+
+  .navItem:hover {
+    color: #f12b2b;
+    cursor: pointer;
+  }
+  
+  .column {
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .clayColumn {
+    max-width: 700px;
+    text-align: left;
+  }
+
+  .clayColumn img{
+    padding: 20px;
+    width: 400px;
+  }
+
+
+
+  
+
+  #main {
+    display: flex;
+    flex-flow: wrap;
+  }
+  
+  #main div {
+    font-size: 0;
+    flex: 0 1 calc(100%/3);
+  }
+  
+  #main div img {
+    height: auto;
+    width: 100%;
+    height: 200px;
+    border-style: dotted;
+  }
+  
+  @media only screen and (min-width: 240px) {
+    #main div { flex: 0 1 calc(100%/2); }
+  }
+  
+  @media only screen and (min-width: 480px) {
+    #main div { flex: 0 1 calc(100%/3); }
+  }
+  
+  @media only screen and (min-width: 720px) {
+    #main div { flex: 0 1 calc(100%/4); }
+  }
+  
+  @media only screen and (min-width: 960px) {
+    #main div { flex: 0 1 calc(100%/5); }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    #main div { flex: 0 1 calc(100%/6); }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    #main div { flex: 0 1 calc(100%/7); }
+  }
+  
+  @media only screen and (min-width: 1680px) {
+    #main div { flex: 0 1 calc(100%/8); }
+  }
+  
+  @media only screen and (min-width: 1920px) {
+    #main div { flex: 0 1 calc(100%/9); }
+  }
